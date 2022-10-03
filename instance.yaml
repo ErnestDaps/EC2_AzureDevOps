@@ -6,8 +6,8 @@
     #this task greates ec2 instances that are all named demo and are copies of the image specified
     - name: Provision a set of instances
       ec2:
-         aws_access_key: AKIAZTW4LXZ4XD6NSGER
-         aws_secret_key: 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
+         aws_access_key: 
+         aws_secret_key: 
          key_name: au131
          instance_type: t2.micro
          image: ami-06672d07f62285d1d
